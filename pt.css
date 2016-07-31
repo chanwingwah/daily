@@ -1,0 +1,44 @@
+/* CSS Document */
+
+ *{margin: 0;padding: 0;list-style: none;}
+  body{background:#70E956}
+ *{margin: 0;padding: 0;list-style: none;}
+ td{
+	width: 150px;
+	height: 150px;
+	background: yellow; 
+}
+ table{
+	 width:450px; 
+	 height:450px;
+	 border="1";
+ 	position:absolute;
+ 	top:60px;
+	left:35%;
+	
+	}
+
+span{
+	margin-left: 105px;
+	line-height: 1.6em;
+}
+
+ button{
+ 	box-shadow: none;
+ 	border:0;
+	background-color: red;
+	border-bottom-color: #000;
+	color: white;
+	font-size: 20px;
+	width: 180px;
+	height: 35px;
+	float: left;
+	margin-left:100px;
+	margin-top:230px;	
+}
+
+#ok{
+	position: absolute;
+	top: 180px;
+	left: 100px;
+	 }
