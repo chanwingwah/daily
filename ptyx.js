@@ -92,7 +92,7 @@ function IMGMOVE(a,b)
 		for(var j=0;j<3;j++)	
 		td[i][j]=document.getElementsByTagName("img")[k++];
 	}
-	td[a][b].onclick=function()
+	td[a][b].onmouseover=function()
 	{
 		
 		if (Math.abs(a - c) + Math.abs(b - d) == 1)
